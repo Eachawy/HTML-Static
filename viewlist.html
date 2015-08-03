@@ -1,1 +1,77 @@
+<!DOCTYPE  lang="en" html>
+<html ng-app="HotelApp">
+	<head>
+		<title>Hotel Fantastique</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="assets/css/bootstrap3.1.1.css" />
+		<link rel="stylesheet" href="assets/css/css.css" />
+	</head>
+	
+	<body>
 
+		<div class="col-md-12">
+    <button type="button" class="btn btn-primary">Add new hotel</button>
+    <hr />
+</div>
+
+<div class="bs-example">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Hotel Name</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">10281</th>
+                <td>Grand Hotel Kronenhof</td>
+                <td>Pontresina, Switzerland</td>
+                <td>
+                    <a href="#">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">28520</th>
+                <td>The Upper House</td>
+                <td>Hong Kong, China</td>
+                <td>
+                    <a href="#">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">38450</th>
+                <td>Gili Lankanfushi Maldives</td>
+                <td>Lankanfushi, North Male Atoll, Kaafu Atoll</td>
+                <td>
+                    <a href="#">Edit</a>
+                    <a href="#">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<nav class="pagination">
+    <ul>
+        <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+        <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+    </ul>
+</nav>
+
+		<script src="assets/bower_components/jquery.js"></script>
+		
+
+    
+	</body>
+</html>
